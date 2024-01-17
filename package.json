@@ -1,0 +1,22 @@
+{
+  "name": "store_app",
+  "version": "1.0.0",
+  "description": "A store stock management app. which will help shop owners tp record details about product.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "type": "module"
+}

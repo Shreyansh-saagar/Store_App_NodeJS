@@ -1,0 +1,17 @@
+<h1 class="mt-5 mb-4 text-center">Login</h1>
+
+<% if(errormessage){ %>
+    <div class="alert alert-danger" role="alert">
+        <%= errormessage %>
+    </div>
+<%}%>
+
+<form action="/login" method="post" class="user-form">
+    <div class="mb-3 w-50">
+        <input type="email" class="form-control" placeholder="Email Address" id="email" name="email" >
+    </div>
+    <div class="mb-3 w-50">
+        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
